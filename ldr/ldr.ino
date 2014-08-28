@@ -18,4 +18,5 @@ void loop()
   val = constrain(val,0,50);
   int ledLevel = map(val,0,50,255,0);
   analogWrite(ledPin,ledLevel);
+
 }
