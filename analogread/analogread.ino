@@ -2,6 +2,7 @@ int potPin =A0;
 
 void setup()
 {
+
   pinMode(potPin,INPUT);
   
   Serial.begin(9600);
